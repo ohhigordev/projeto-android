@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'droid';
+    src: url(fontes/IDroid\ Bold.otf);
+}
+
+body{
+    background-color: rgba(91, 199, 91, 0.452);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header{
+    background: linear-gradient(180deg, #65c279, #22462ab4);
+    padding: 10px 20px 0px 0px;
+    text-align: center;
+    color: white;
+    box-shadow: 9px 3px 6px rgba(0, 0, 0, 0.342)
+    
+}
+
+header>nav{
+    text-align: left;
+}
+.link-titulo{
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    color: white;
+
+}
+.link-titulo:hover{
+    color: #65c279;
+    background-color: white;
+}
+main{
+    background-color: white;
+    margin: 0px 200px 0px 200px;
+    padding: 10px;
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.452);
+}
+.Conteudo-principal-titulo{
+    font-family:'droid';
+    color: rgb(21, 90, 21) ;
+
+}
+.titulo-primario{
+    font-family: 'droid';
+    color: rgb(21, 90, 21) 
+}
+.Conteudo-principal-texto{
+    text-align: justify;
+    text-indent: 30px;
+    font-size: large;
+}
+.texto-primario{
+    text-align: justify;
+    text-indent: 30px;
+    font-size: large;
+}
+.robos-dançando{
+    width: 100%;
+    height: auto;
+}
+.imagem-de-mulher-horizontal{
+    width: 100%;
+    margin: 10 px;
+}
+.novo-mascote{
+    width: 50%;
+   
+    
+}
+.video{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(20, 61, 20);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.Caixa-verde{
+    background-color: rgba(144, 238, 144, 0.438);
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: 10px;
+
+}
+.Titulo-caixa-verde{
+    background-color: rgb(121, 228, 157);
+    padding: 10px 10px 10px 10px;
+    color: white;
+    text-indent: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+.texto-caixa-verde{
+    text-align: justify;
+    font-size: larger;
+    text-indent: 20px;
+    margin: 5px;
+}
+.lista-principal{
+    display: grid;
+
+}
+.lista1{
+    text-align: justify;
+    text-decoration: underline; 
+    font-size: large;  
+}
+.lista2{
+    text-align: justify;
+    text-decoration: underline;
+    font-size: large;     
+}
+.destaque{
+    color: rgb(21, 90, 21);
+}
